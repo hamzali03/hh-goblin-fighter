@@ -1,0 +1,25 @@
+#scoreboard {
+    display: flex;
+    padding: 0 30px;
+    background: rgba(240, 181, 214, 0.872);
+    display: grid;
+    align-items: center;
+    font-weight: 600;
+}
+
+#result-display {
+    display: flex;
+    padding: 0 30px;
+    background: rgba(181, 240, 236, 0.664);
+    display: grid;
+    align-items: center;
+    font-weight: 600;
+}
+
+#image-container {
+    display: grid;
+    padding: 30px;
+    grid-auto-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    justify-content: flex-start;
+}
