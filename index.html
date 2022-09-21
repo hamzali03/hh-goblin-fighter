@@ -19,6 +19,7 @@
         <!-- css -->
         <link rel="stylesheet" href="styles/reset.css" />
         <link rel="stylesheet" href="styles/global.css" />
+        <link rel="stylesheet" href="styles/boxer.css" />
         <!-- add link for page specific css -->
     </head>
 
@@ -28,6 +29,27 @@
             <h1>Boxer fighter</h1>
         </header>
 
-        <main></main>
+        <main>
+            <section id="scoreboard">Another message</section>
+            <section id="result-display">message..</section>
+
+            <section class="boxer">
+                <p id="boxer-hp" class="stat">18 hp</p>
+                <img id="Main-boxer" src="assets/main.jpg" />
+            </section>
+
+            <section class="Add New fighter" New fighter>
+                <h3>New Boxer</h3>
+                <input required name="name" />
+                <button>+</button>
+            </section>
+
+            <section id="image-container">
+                <img class="boxer-1" src="assets/boxer-1.jpg" />
+                <img class="boxer-2" src="assets/boxer-2.jpg" />
+                <img class="boxer-3" src="assets/boxer -3.jpg" />
+            </section>
+            <button id="remove-all-dead-boxers-button">Remove all dead boxers</button>
+        </main>
     </body>
 </html>
